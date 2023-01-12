@@ -4,9 +4,24 @@ import (
 	"exemple/tutoGO/module"
 	"fmt"
 	"log"
+	"time"
 )
 
 func main() {
+
+	// test   variable
+	var conferenceName = "La conference de Semmy Guiose il y a"
+	const conferenceTicket = 50
+	var remainingTickets = 50
+
+	fmt.Println(conferenceName, "ticket disponible", remainingTickets, "sur", conferenceTicket)
+	fmt.Printf("%v ticket disponible %v sur %v \n", conferenceName, remainingTickets, conferenceTicket)
+	//saisie clavier
+	//	module.Saisie()
+
+	fmt.Println(time.Now())
+
+	// log and erreur
 	log.SetPrefix("Attention: ")
 	log.SetFlags(0)
 
