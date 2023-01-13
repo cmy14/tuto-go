@@ -402,7 +402,12 @@ Ajouter des module
 
 Si on fait des dossiers mettre dans le import  du main  le  chemin relatif en fonction du main
 
-## les goroutine
+## les goroutines
 
-## sources
-https://devopssec.fr/article/lire-et-ecrire-dans-un-fichier-golang#begin-article-section
+### les channels
+
+## Lectures de fichiers
+
+## Sources
+
+<https://devopssec.fr/article/lire-et-ecrire-dans-un-fichier-golang#begin-article-section>
